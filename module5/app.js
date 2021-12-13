@@ -25,7 +25,11 @@ app.get('/', (req, res) => {
 });
 
 app.get('/students', (req, res) => {
-    res.render('student s', { students: students });
+
+
+
+
+    res.render('students', { students: students });
 
 });
 
